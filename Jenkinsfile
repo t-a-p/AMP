@@ -24,8 +24,7 @@ pipeline {
         }
         stage('Deploy2') {
           steps {
-            sh '''echo "Inside Deploy2"
-exit 0'''
+            sh 'echo "Inside Deploy2"'
           }
         }
         stage('Deploy3') {
